@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# Access to current directory
+echo $PWD
+echo ~+
+
+# Access to last directory
+echo $OLDPWD
+echo ~-
+
+# Access to home directory
+echo ~
+
+# Access to root home directory
+echo ~root

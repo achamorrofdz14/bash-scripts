@@ -1,0 +1,25 @@
+#!/bin/bash
+
+# Author: Adrian Chamorro Fernandez
+# Date Created: 01/08/2024
+# Last Modified: 01/08/2024
+
+# Description
+# Create a backup of MASTER folder in a .tar file
+
+# Usage
+# backup_script2
+
+echo "Hello, ${USER^}"
+echo "I will now back up your MASTER directory, ${HOME}/MASTER"
+
+currentdir=$(pwd)
+
+echo "You are running this script from $currentdir."
+echo "Therefore, I will save the backup in ${HOME}/bash-scripts"
+
+tar -cf $HOME/bash-scripts/documents_backup_"$(date +%d-%m-%Y_%H-%M-%S)".tar $HOME/MASTER/* 2>/dev/null
+
+echo "Backup Completed Successfully!"
+
+exit 0

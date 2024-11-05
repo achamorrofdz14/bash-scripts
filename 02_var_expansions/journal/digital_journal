@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# Create month folders
+mkdir month{01..12}
+
+# Create day files
+touch month{01..12}/day{01..31}.txt
+
+

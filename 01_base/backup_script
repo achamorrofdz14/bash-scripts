@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# Author: Adrian Chamorro Fernandez
+# Date Created: 01/08/2024
+# Last Modified: 01/08/2024
+
+# Description
+# Create a backup of MASTER folder in a .tar file
+
+# Usage
+# backup_script
+
+
+tar -cvf ~/bash-scripts/documents_backup_"$(date +%d-%m-%Y_%H-%M-%S)".tar ~/MASTER/* 2>/dev/null
+
+exit 0
