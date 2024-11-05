@@ -25,15 +25,21 @@ echo $name has {1..5} computers and $(( 3 + 1 )) keyboards
 # TRICKY
 name=file
 echo $name{1..3}.txt
-# 4 Stages of Expansions
 
-# Stage 1: Brace Expansion
-# Stage 2:
-#     Parameter Expansion
-#     Arithmetic Expansion
-#     Command Substitution
-#     Tilde Expansion   
+# Word splitting example
+echo "${IFS@Q}"
 
-# Stage 3: Word Splitting
-# Stage 4: Globbing   
- 
+numbers="1 2 3 4 5"
+#numbers="1,2,3,4,5"
+#IFS=","
+echo $numbers
+echo "$numbers"
+
+
+# Globbing examples
+ls month_*.txt
+ls month_??.txt
+ls month_[1-12].txt
+
+
+
