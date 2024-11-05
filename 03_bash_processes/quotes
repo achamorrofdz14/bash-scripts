@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# Backslah
+echo adrian \& simba
+
+# Avoid backslash
+filepath=C:\Users\acham\Downloads
+echo "Bad filepath: $filepath"
+
+filepath='C:\Users\acham\Downloads'
+echo "Good filepath: $filepath"
+
+filepath="C:\Users\\$USER\Downloads"
+echo "Good filepath with USER var: $filepath"
+

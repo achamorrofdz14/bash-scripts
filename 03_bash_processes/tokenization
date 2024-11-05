@@ -1,0 +1,13 @@
+#!/bin/bash
+
+#Single command
+echo 1 2 3 echo a b c
+echo 1 2 3; echo a b c
+
+# Single command
+# echo hey > out.txt
+
+# Compound command
+if [[ 2 -gt 1 ]]; then
+ echo "helo world"
+fi
