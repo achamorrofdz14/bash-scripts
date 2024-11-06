@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# Standard input
+# cat
+
+# Standard output
+echo "Hello World" > hello.txt
+
+# Standard error
+cd /root 2> error.txt
+
+# Standard output and standard error
+cd /root &> /dev/null
+
+# to append to a file using redirections: >>

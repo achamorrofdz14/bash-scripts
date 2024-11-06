@@ -1,0 +1,1 @@
+./redirection: line 10: cd: /root: Permission denied
