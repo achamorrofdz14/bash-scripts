@@ -1,0 +1,6 @@
+
+# Ubuntu Installation
+sudo apt install shellcheck
+
+# Use
+shellcheck [your-script]

@@ -1,0 +1,18 @@
+
+# Common internal help commands
+
+# Check type of a command
+type -a cd
+type -a ls
+
+# Information internal commands
+help cd
+help -d cd # Description
+help -s cd # Use
+
+# Information external commands
+man ls
+man -k "list directory contents" # search commands
+man -K partition # search on every manual matched
+
+info ls # with links
