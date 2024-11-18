@@ -1,14 +1,14 @@
 HTTP/1.1 301 Moved Permanently
-Date: Wed, 13 Nov 2024 19:28:17 GMT
+Date: Thu, 14 Nov 2024 10:42:07 GMT
 Content-Type: text/html
 Content-Length: 167
 Connection: keep-alive
 Cache-Control: max-age=3600
-Expires: Wed, 13 Nov 2024 20:28:17 GMT
+Expires: Thu, 14 Nov 2024 11:42:07 GMT
 Location: https://www.udemy.com/
-Set-Cookie: __cf_bm=PbYI4ZW8jOJj2uL7lzIXgKWsrFyxvULpIkbM1fcaBCM-1731526097-1.0.1.1-4SMJ_TIdXDiG_CFXj0gC4v1y3HQ4zcBR3Jc_tBLI_6Lfbm4wTmjeMErnn0CxkRSFJ4tydYNM56Hbsz5IkhSDoA; path=/; expires=Wed, 13-Nov-24 19:58:17 GMT; domain=.udemy.com; HttpOnly
+Set-Cookie: __cf_bm=3OwrFGdcU8zAO.moli04r2D68E5bXoMjpKdKkR_CEk8-1731580927-1.0.1.1-DTofhsiatcBUx7UxrktoC12IZQbJkHsFfKSK80aCHNI6.y3.yu2LyjlkOPlGPZQboeJFI0HvleC6W2qcYM9mpA; path=/; expires=Thu, 14-Nov-24 11:12:07 GMT; domain=.udemy.com; HttpOnly
 X-Content-Type-Options: nosniff
-Set-Cookie: __cfruid=6ad00affeb9cd72eac01a80929241bf4022e53a9-1731526097; path=/; domain=.udemy.com; HttpOnly
+Set-Cookie: __cfruid=093f3776071f8b572d9d001a7225f99c6db90851-1731580927; path=/; domain=.udemy.com; HttpOnly
 Server: cloudflare
-CF-RAY: 8e2129fe78c6041f-MAD
+CF-RAY: 8e26649d2d30e06f-MAD
 

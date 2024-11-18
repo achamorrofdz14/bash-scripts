@@ -2,8 +2,8 @@
 
 readarray -t urls < urls.txt
 
-for url in ${urls[@]}; do
+for url in "${urls[@]}"; do
 	filename=$(echo "$url" | cut -d "." -f 2).txt
-	curl -I "$url" > $filename
+	curl -I "$url" > "$filename"
 done
 

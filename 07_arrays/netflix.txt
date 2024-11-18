@@ -1,12 +1,12 @@
 HTTP/1.1 301 Moved Permanently
 Location: https://www.netflix.com/
 Content-Length: 0
-Via: 1.1 i-015bc7202e3ad4e81 (us-east-1)
+Via: 1.1 i-0d3073c43d517196d (us-east-1)
 X-Xss-Protection: 1; mode=block; report=https://www.netflix.com/ichnaea/log/freeform/xssreport
 X-Content-Type-Options: nosniff
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 X-Originating-URL: http://www.netflix.com/
-Set-Cookie: nfvdid=BQFmAAEBEFQx7oxDAOwJPm2tkvdTZq5AcHgNu2pjt3XEA5DHgMHDDu46cxNtV6mQakLM9SLdefK1QZzsdyrRwRlfVWyiKI5mR24ntMUzEctHLkngh86MQQ%3D%3D; Domain=.netflix.com; Path=/; Max-Age=31536000
+Set-Cookie: nfvdid=BQFmAAEBEH5NmGC51OK5NNxJPOEat5ZAu9Vppvl67STP8G783JtNPBGDb_RjW0UEgBzaR1mfUQUNb1n4fK-oOEwVg2hatpsAqbZkPZuuTOI0zMs3H_cxHg%3D%3D; Domain=.netflix.com; Path=/; Max-Age=31536000
 X-Netflix.nfstatus: 1_21
-X-Netflix.proxy.execution-time: 3
+X-Netflix.proxy.execution-time: 2
 
