@@ -1,0 +1,21 @@
+
+# At installation
+sudo apt install at
+
+# List at tasks
+at -l
+
+# Scheduling scripts at 9:00 am
+at 9:00am -f at_scripts.sh
+
+# Scheduling scripts at Monday 09:00am
+at 9:00am Monday -f at_scripts.sh
+
+# Scheduling scripts for tomorrow 09:00 am
+at 9am tomorrow -f at_scripts.sh
+
+# Scheduling scripts for an specific day 10:00 am
+at 10:00am 15.12.2023 -f at_scripts
+
+# Scheduling scripts with delay
+at now + 2 minutes -f at_scripts.sh
